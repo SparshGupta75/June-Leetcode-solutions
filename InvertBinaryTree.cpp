@@ -4,7 +4,7 @@ public:
         
         if(root==NULL)
         {
-            return root;
+            return root; 
         }
         invertTree(root->left);
         invertTree(root->right);
