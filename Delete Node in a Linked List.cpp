@@ -11,7 +11,7 @@ public:
 
 class Solution {
 public:
-    void deleteNode(ListNode* node) {
+    void deleteNode(ListNode* node) { 
         
         ListNode *temp = node->next;
         *node = *temp;
